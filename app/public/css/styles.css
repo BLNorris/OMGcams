@@ -1,0 +1,72 @@
+#wrapper{
+    width:85%;
+    margin:auto;
+}
+ 
+#header{
+    background-color:#ade;
+}
+ 
+#header>h1{
+    font-size:200%;
+}
+ 
+h2{
+    font-size:130%;
+    font-family:sans-serif;
+}
+ 
+#content{
+   width:80%;
+    margin:10px;
+    float:left;
+}
+ 
+#side_bar{
+   font-size:75%;
+    margin:10px 0;
+    width: 15%;
+    float:right;
+    clear:none;
+    background-color:#ddd;
+}
+ 
+h1{
+    font-size:150%;
+}
+ 
+#footer{
+    clear:both;
+    background-color:#ade;
+    font-size:75%;
+    font-family:sans-serif;
+    color:#333;
+    border-top:solid 1px #69a;
+}
+ 
+ol{
+    padding-top:20px;
+    background-color:#ade;
+    display:block;
+}
+ 
+li{
+    color:white;
+    text-align:center;
+    display:inline;
+    padding:5px 10px 0 10px;
+    margin-right:2px;
+    background-color: #69a;
+}
+ 
+a{
+    text-decoration:none;
+}
+
+.cam_view{
+   width:100%;
+}
+
+.cam_preview{
+   width: 100%;
+}
