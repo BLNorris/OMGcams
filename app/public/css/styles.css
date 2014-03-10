@@ -4,6 +4,7 @@
 }
  
 #header{
+   border-radius:5%;
     background-color:#ade;
 }
  
@@ -23,6 +24,7 @@ h2{
 }
  
 #side_bar{
+   border-radius:5%;
    font-size:75%;
     margin:10px 0;
     width: 15%;
@@ -36,6 +38,7 @@ h1{
 }
  
 #footer{
+   border-radius:5%;
     clear:both;
     background-color:#ade;
     font-size:75%;
