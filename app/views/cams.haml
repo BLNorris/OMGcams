@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title My Sinatra Website
+    %title Omaha Maker Groups Webcams
     %link(rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css")
     %link(rel="stylesheet" href="css/styles.css")
   %body
@@ -9,20 +9,20 @@
       #header
         %h1 Omaha Maker Groups Webcams
       #content
-        %img.cam_view(src="cam1_1.jpg")
+        %img.cam_view(src="cam#{@camera}_1.jpg")
       #side_bar
         %h1 Cam Previews
         %p
-          %img.cam_preview(src="cam1_1.jpg")
-          %img.cam_preview(src="cam2_1.jpg")
-          %img.cam_preview(src="cam3_1.jpg")
-          %img.cam_preview(src="cam4_1.jpg")
-          %img.cam_preview(src="cam5_1.jpg")
+          %a{:href=>"/?cams=1"}
+            %img.cam_preview(src="cam1_1.jpg")
+          %a{:href=>"/?cams=2"}
+            %img.cam_preview(src="cam2_1.jpg")
+          %a{:href=>"/?cams=3"}
+            %img.cam_preview(src="cam3_1.jpg")
+          %a{:href=>"/?cams=4"}
+            %img.cam_preview(src="cam4_1.jpg")
+          %a{:href=>"/?cams=5"}
+            %img.cam_preview(src="cam5_1.jpg")
       #footer
         %p
-          This is the footer.
-          
-    :javascript
-      $(function() {
-        $("#tabs").tabs();
-      });
+          Come on dawn and check it out!
