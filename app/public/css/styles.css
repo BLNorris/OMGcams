@@ -64,9 +64,11 @@ a{
 }
 
 .cam_view{
+   border-radius:5%;
    width:100%;
 }
 
 .cam_preview{
+   border-radius:5%;
    width: 100%;
 }
